@@ -1,0 +1,4 @@
+#!/bin/busybox sh
+/bin/busybox mkdir -p /proc && /bin/busybox mount -t proc none /proc
+/bin/busybox echo "HelloToYou"
+/bin/busybox sh
