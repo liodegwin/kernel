@@ -1,0 +1,1 @@
+cmd_/home/liode/nfs_dir/kernel/module/helloworld/hello.mod := printf '%s\n'   hello.o | awk '!x[$$0]++ { print("/home/liode/nfs_dir/kernel/module/helloworld/"$$0) }' > /home/liode/nfs_dir/kernel/module/helloworld/hello.mod
