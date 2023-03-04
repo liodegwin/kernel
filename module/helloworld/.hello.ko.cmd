@@ -1,1 +1,0 @@
-cmd_/home/liode/nfs_dir/kernel/module/helloworld/hello.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/liode/nfs_dir/kernel/module/helloworld/hello.ko /home/liode/nfs_dir/kernel/module/helloworld/hello.o /home/liode/nfs_dir/kernel/module/helloworld/hello.mod.o;  true

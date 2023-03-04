@@ -1,1 +1,0 @@
-cmd_/home/liode/nfs_dir/kernel/module/helloworld/Module.symvers := sed 's/ko$$/o/' /home/liode/nfs_dir/kernel/module/helloworld/modules.order | scripts/mod/modpost    -o /home/liode/nfs_dir/kernel/module/helloworld/Module.symvers -e -i Module.symvers   -T -

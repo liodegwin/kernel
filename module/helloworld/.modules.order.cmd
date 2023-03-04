@@ -1,1 +1,0 @@
-cmd_/home/liode/nfs_dir/kernel/module/helloworld/modules.order := {   echo /home/liode/nfs_dir/kernel/module/helloworld/hello.ko; :; } | awk '!x[$$0]++' - > /home/liode/nfs_dir/kernel/module/helloworld/modules.order
